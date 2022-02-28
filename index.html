@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<script
+			src="https://kit.fontawesome.com/1dcda41a8d.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Firstwidget.co</title>
+	</head>
+	<body>
+		<div class="landing-page">
+			<!----Navigationbar---->
+			<div class="navbar-container">
+				<div class="word-links">
+					<div><span class="name">Firstwidget</span>.co</div>
+				</div>
+				<div class="wordlinks">
+					<div class="links_word">How it works</div>
+					<div class="links_word">Usecases</div>
+					<div class="links_word create_btn">Create Your Slider</div>
+				</div>
+			</div>
+			<!---Mobile Navigationbar--->
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+			<div class="mobile-container">
+				<div class="mobile-wordlinks" id="mobileWordlinks">
+					<div><span class="mobile-name">Firstwidget</span>.co</div>
+					<div class="mobile-links-word">How it works</div>
+					<div class="mobile-links-word">Usecases</div>
+					<div class="mobile-links-word-create_btn">Create You slider</div>
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+				</div>
+			</div>
+			<!---Page Information--->
+			<div class="landing-sec">
+				<div class="info">
+					<h1 class="title">
+						Time to add <span class="sptitle">some life</span> to your
+						Notionfolio! 🎉
+					</h1>
+					<p class="para">
+						Create personalized sliders to showcase your work, testimonials,
+						pictures and much more inside notion :)
+					</p>
+				</div>
+				<div class="gifvideo">
+					<img class="top" src="browser_top.png" />
+					<img class="bottom" src="product.gif" />
+					<p class="para2">👆 Animated sliders for your best works</p>
+				</div>
+			</div>
+			<!---Page Information 2--->
+			<div class="landing-sec2">
+				<div class="info2">
+					<h1 class="title"><span class="sptitle">How</span> it works? 🤔</h1>
+					<p class="para">
+						Trust us, it’s super simple to add slider to your notion pages!
+					</p>
+				</div>
+				<div class="info-slider">
+					<div class="slides"></div>
+					<div class="slides"></div>
+					<div class="slides"></div>
+				</div>
+			</div>
+			<!---Page Information 3--->
+			<div class="landing-sec3">
+				<div class="info2">
+					<h1 class="title">A few <span class="sptitle">Usecases 💻</span></h1>
+					<p class="para">
+						A simple yet effective tool to up your notion game!
+					</p>
+				</div>
+				<div class="info2-slider">
+					<div class="slider-bar">
+						<div class="bar">
+							<p class="pa">Portifolio</p>
+							<div class="underline"></div>
+						</div>
+						<div class="bar"><p class="pa">Testimonials</p></div>
+						<div class="bar"><p class="pa">Picture Gallery</p></div>
+					</div>
+					<div class="new">
+						<div class="slider-content">
+							<div class="slid">
+								<img
+									src="https://picsum.photos/536/354?random=1"
+									alt="image"
+									class="slidimg"
+								/>
+							</div>
+							<div class="slid">
+								<img
+									src="https://picsum.photos/536/354?random=2"
+									alt="image"
+									class="slidimg"
+								/>
+							</div>
+							<div class="slid">
+								<img
+									src="https://picsum.photos/536/354?random=3"
+									alt="image"
+									class="slidimg"
+								/>
+							</div>
+							<div class="slid">
+								<img
+									src="https://picsum.photos/536/354?random=4"
+									alt="image"
+									class="slidimg"
+								/>
+							</div>
+						</div>
+						<div class="btncontainer">
+							<div class="y-create_btn">Create Your Slider</div>
+							<p class="para4">
+								Guess what? It’s
+								<span class="bold">free for you</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="para5">
+				Show us some love on
+				<span><i class="fa-brands fa-twitter"></i></span>
+			</p>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
